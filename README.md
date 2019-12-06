@@ -1,2 +1,2 @@
-# Tensorflow_Tutuorials
+# Tensorflow_Tutorials
 Become Tensorflow GOD
