@@ -13,7 +13,9 @@ learning_rate = 0.01
 (x_train, y_train), (x_test, y_test) = tf.keras.datasets.mnist.load_data(path='mnist.npz')
 batch_size = 128
 x_train = (x_train/255.).reshape(60000,784)
-x_test = x_test/255.
+x_test = (x_test/255.).reshape(10000,784)
+
+
 def neuralNetwork(x_dict):
 	#Define input placeholder
 	X = x_dict['images']
@@ -46,9 +48,18 @@ def model_fn(features,labels,mode):
 	
 	estim_spec = tf.estimator.EstimatorSpec(mode = mode,predictions = classes, loss = loss_op, train_op = train_op,eval_metric_ops ={'accuracy':acc_op} )
 	return estim_spec
-	
+
+#define model	
 model = tf.estimator.Estimator(model_fn)
+
+#define input function for training with train data
 input_fn = tf.estimator.inputs.numpy_input_fn(x = {'images' : x_train },y = y_train,batch_size = batch_size,num_epochs = None,shuffle = True)
 model.train(input_fn,steps = num_steps)
-	
-	
+
+#define input function for test data
+input_fn = tf.estimator.inputs.numpy_input_fn(x ={'images' : x_test},y = y_test, batch_size = batch_size,shuffle = False)
+preds = list(model.predict(input_fn))
+#creating and plotting confusion matrix
+conf_mat = tf.math.confusion_matrix(y_test,preds)
+print(tf.Session().run(conf_mat))
+
