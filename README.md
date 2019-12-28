@@ -11,3 +11,5 @@ Model Tree:
 - SiamFC
 - CFnet
 ```
+## Check out mit course going live on 2020(Schedule yet to be released!)
+### http://introtodeeplearning.com/
