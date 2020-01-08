@@ -1,12 +1,13 @@
 # Tensorflow_Tutorials
 ```
 Model Tree:
-- Linear Regression
-- Logistic Regression
-- Neural Network
+- Linear Regression(done)
+- Logistic Regression(done)
+- Neural Network(done)
 - CNN
 - RNN
 - LSTM
+- autoencoder(done)
 - GAN
 - SiamFC
 - CFnet
