@@ -8,7 +8,7 @@ Model Tree:
 - RNN
 - LSTM
 - autoencoder(done)
-- GAN
+- GAN(done)
 - SiamFC
 - CFnet
 ```
