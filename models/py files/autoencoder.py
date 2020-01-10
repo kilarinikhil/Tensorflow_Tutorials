@@ -8,8 +8,8 @@ x_test = (x_test/255.).reshape(10000,784)
 
 #hyperparameters
 learningRate = 0.01
-numEpochs = 2000
-displayStep = numEpochs
+numEpochs = 5000
+displayStep = 100
 inputSize = 784
 
 #encoder specifications
