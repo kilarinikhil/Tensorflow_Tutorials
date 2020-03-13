@@ -14,3 +14,5 @@ Model Tree:
 ```
 ## Check out mit course going live on 2020(Schedule yet to be released!)
 ### http://introtodeeplearning.com/
+
+I am still learning tf 2.0. I will keep updating the repo.
