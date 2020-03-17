@@ -16,3 +16,5 @@ Model Tree:
 ### http://introtodeeplearning.com/
 
 I am still learning tf 2.0. I will keep updating the repo.
+
+Thanks to @aymericdamien check out his awesome repo https://github.com/aymericdamien/TensorFlow-Examples/tree/master/tensorflow_v2
