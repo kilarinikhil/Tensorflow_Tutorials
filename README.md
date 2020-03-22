@@ -1,5 +1,4 @@
 # Tensorflow_Tutorials
-```
 Model Tree(updated for tf2):
  - [x] Linear Regression
  - [x] Logistic Regression
@@ -11,7 +10,6 @@ Model Tree(updated for tf2):
  - [ ] GAN
  - [ ] SiamFC
  - [ ] CFnet
-```
 ## Check out mit course going live on 2020(Schedule released!)
 ### http://introtodeeplearning.com/
 
