@@ -13,6 +13,9 @@
 ### Check out mit course going live on 2020(Schedule released!)
 ### http://introtodeeplearning.com/
 
+**Useful datascience websites**
+[Datahacker](https://github.com/kilarinikhil/Tensorflow_Tutorials)
+
 I am still learning tf2.0. I will keep updating the repo.
 
 Thanks to @aymericdamien check out his [awesome repo](https://github.com/aymericdamien/TensorFlow-Examples/tree/master/tensorflow_v2)
